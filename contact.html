@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chandra Mohan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="https://unpkg.com/@motionone/dom/dist/motion.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script defer src="main.js"></script>
+
+</head>
+<body class="page">
+  <div id="particles-js"></div>
+    <header class="site-header">
+    <a class="brand" href="index.html">CM</a>
+    <nav class="nav">
+      <a href="about.html" data-link>About</a>
+      <a href="projects.html" data-link>Projects</a>
+      <a href="skills.html" data-link>Skills</a>
+     
+      <a href="contact.html" data-link>Contact</a>
+    </nav>
+    <a class="cta" href="ChandraMohanResume.pdf" download>Download Resume</a>
+  </header>
+
+<main class="content narrow">
+  <h1 data-animate="fade-up">Get in touch</h1>
+
+  <div class="card contact-info" data-animate="fade-up" data-delay="0.1">
+    <p><strong>Email:</strong> 
+      <a href="mailto:chandramohan3472@gmail.com">chandramohan3472@gmail.com</a>
+    </p>
+    <p><strong>Phone:</strong> 
+      <a href="tel:+919876543210">+919344640682</a>
+    </p>
+    <p><strong>Location:</strong> 
+      Karaikudi, Tamil Nadu, India
+    </p>
+    <p><strong>LinkedIn:</strong> 
+      <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a>
+    </p>
+    <p><strong>GitHub:</strong> 
+      <a href="https://github.com/your-github" target="_blank">github.com/your-github</a>
+    </p>
+   
+  </div>
+</main>
+
+    <footer class="site-footer">
+         <div class="social-links">
+  <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+ 
+  <a href="https://github.com/your-github" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="mailto:chandramohan3472@gmail.com">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+    <p>© <span id="y"></span> Chandra Mohan</p>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+  <script defer src="particles-init.js"></script>
+</body>
+</html>
